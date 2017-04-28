@@ -167,7 +167,7 @@
             this.minOutput.AutoSize = true;
             this.minOutput.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.minOutput.ForeColor = System.Drawing.Color.Orange;
-            this.minOutput.Location = new System.Drawing.Point(104, 223);
+            this.minOutput.Location = new System.Drawing.Point(70, 223);
             this.minOutput.Name = "minOutput";
             this.minOutput.Size = new System.Drawing.Size(80, 65);
             this.minOutput.TabIndex = 91;
@@ -230,7 +230,7 @@
             // 
             this.minLabel.AutoSize = true;
             this.minLabel.ForeColor = System.Drawing.Color.White;
-            this.minLabel.Location = new System.Drawing.Point(136, 288);
+            this.minLabel.Location = new System.Drawing.Point(102, 288);
             this.minLabel.Name = "minLabel";
             this.minLabel.Size = new System.Drawing.Size(23, 13);
             this.minLabel.TabIndex = 86;
@@ -240,7 +240,7 @@
             // 
             this.currentOutput.BackColor = System.Drawing.Color.Transparent;
             this.currentOutput.ForeColor = System.Drawing.Color.White;
-            this.currentOutput.Location = new System.Drawing.Point(76, 264);
+            this.currentOutput.Location = new System.Drawing.Point(42, 264);
             this.currentOutput.Name = "currentOutput";
             this.currentOutput.Size = new System.Drawing.Size(22, 13);
             this.currentOutput.TabIndex = 85;
@@ -282,7 +282,6 @@
             this.Controls.Add(this.label5);
             this.Name = "CurrentScreen";
             this.Size = new System.Drawing.Size(420, 400);
-            //this.Load += new System.EventHandler(this.CurrentScreen_Load);
             ((System.ComponentModel.ISupportInitialize)(this.windBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.humBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.currentImage)).EndInit();

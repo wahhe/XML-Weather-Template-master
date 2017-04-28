@@ -21,8 +21,8 @@ namespace XMLWeather
         {
             cityOutput.Text = Form1.days[0].location;
             tempLabel.Text = Form1.days[0].currentTemp + "°C";
-            minOutput.Text = Form1.days[0].tempLow;
-            maxOutput.Text = Form1.days[0].tempHigh;
+            minOutput.Text = Form1.days[0].tempLow + "°C";
+            maxOutput.Text = Form1.days[0].tempHigh + "°C";
 
             humLabel.Text = Form1.days[0].humidity;
 

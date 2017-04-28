@@ -20,18 +20,18 @@ namespace XMLWeather
         public void displayForecast()
         {
             date1.Text = Form1.days[1].date;
-            min1.Text = Form1.days[1].tempLow;
-            max1.Text = Form1.days[1].tempHigh;
+            min1.Text = Form1.days[1].tempLow + "°C";
+            max1.Text = Form1.days[1].tempHigh + "°C";
             condi1.Text = Form1.days[1].condition;
 
             date2.Text = Form1.days[2].date;
-            min2.Text = Form1.days[2].tempLow;
-            max2.Text = Form1.days[2].tempHigh;
+            min2.Text = Form1.days[2].tempLow + "°C";
+            max2.Text = Form1.days[2].tempHigh + "°C";
             condi2.Text = Form1.days[2].condition;
 
             date3.Text = Form1.days[3].date;
-            min3.Text = Form1.days[3].tempLow;
-            max3.Text = Form1.days[3].tempHigh;
+            min3.Text = Form1.days[3].tempLow + "°C";
+            max3.Text = Form1.days[3].tempHigh + "°C";
             condi3.Text = Form1.days[3].condition;
 
             //date 1 image 
