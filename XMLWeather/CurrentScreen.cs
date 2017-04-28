@@ -30,7 +30,7 @@ namespace XMLWeather
             wdirLabel.Text = Form1.days[0].windname;
             condiOutput.Text = Form1.days[0].condition;
 
-            //change currentimage for different condition
+            //change currentimage for different conditions
            
             if (Form1.days[0].condition.Contains("rain"))
             {
